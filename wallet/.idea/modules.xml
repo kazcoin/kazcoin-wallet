@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wallet.iml" filepath="$PROJECT_DIR$/wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gen-external-apklibs/~apklib-com.actionbarsherlock_actionbarsherlock_4.4.0.iml" filepath="$PROJECT_DIR$/gen-external-apklibs/~apklib-com.actionbarsherlock_actionbarsherlock_4.4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gen-external-apklibs/~apklib-de.schildbach.wallet_integration-android_1.0.iml" filepath="$PROJECT_DIR$/gen-external-apklibs/~apklib-de.schildbach.wallet_integration-android_1.0.iml" />
+    </modules>
+  </component>
+</project>
+
