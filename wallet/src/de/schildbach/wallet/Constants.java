@@ -55,8 +55,8 @@ public class Constants
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-	private static final String EXPLORE_BASE_URL_PROD = "http://kazcoins.org/BW/";
-	private static final String EXPLORE2_BASE_URL_PROD = "http://kazcoins.org/BW/";
+	private static final String EXPLORE_BASE_URL_PROD = "http://kazcoins.org/BC/";
+	private static final String EXPLORE2_BASE_URL_PROD = "http://kazcoins.org/BC/";
 	public static final String EXPLORE_BASE_URL = EXPLORE_BASE_URL_PROD;
 	public static final String EXPLORE2_BASE_URL = EXPLORE2_BASE_URL_PROD;
 
