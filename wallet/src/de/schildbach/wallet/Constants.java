@@ -40,7 +40,7 @@ public class Constants
 	public static final boolean TEST = R.class.getPackage().getName().contains("_test");
 
 	public static final NetworkParameters NETWORK_PARAMETERS = LitecoinParams.get();
-	private static final String FILENAME_NETWORK_SUFFIX = "gaelcoin";
+	private static final String FILENAME_NETWORK_SUFFIX = "kazcoin";
 
 	public static final String WALLET_FILENAME = "wallet" + FILENAME_NETWORK_SUFFIX;
 
@@ -49,16 +49,16 @@ public class Constants
 	public static final String WALLET_KEY_BACKUP_BASE58 = "key-backup-base58" + FILENAME_NETWORK_SUFFIX;
 
 	public static final File EXTERNAL_WALLET_BACKUP_DIR = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-	public static final String EXTERNAL_WALLET_KEY_BACKUP = "gaelcoin-wallet-keys";
+	public static final String EXTERNAL_WALLET_KEY_BACKUP = "kazcoin-wallet-keys";
 
 	public static final String BLOCKCHAIN_FILENAME = "blockchain" + FILENAME_NETWORK_SUFFIX;
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-    private static final String EXPLORE_BASE_URL_PROD = "http://block.gaelcoin.org/";
-    private static final String EXPLORE2_BASE_URL_PROD = "http://block.gaelcoin.org/";
-    public static final String EXPLORE_BASE_URL = EXPLORE_BASE_URL_PROD;
-    public static final String EXPLORE2_BASE_URL = EXPLORE2_BASE_URL_PROD;
+	private static final String EXPLORE_BASE_URL_PROD = "http://kazcoins.org/BW/";
+	private static final String EXPLORE2_BASE_URL_PROD = "http://kazcoins.org/BW/";
+	public static final String EXPLORE_BASE_URL = EXPLORE_BASE_URL_PROD;
+	public static final String EXPLORE2_BASE_URL = EXPLORE2_BASE_URL_PROD;
 
 	public static final String MIMETYPE_TRANSACTION = "application/x-ltctx";
 
@@ -80,9 +80,9 @@ public class Constants
 	public static final int ADDRESS_FORMAT_GROUP_SIZE = 4;
 	public static final int ADDRESS_FORMAT_LINE_SIZE = 12;
 
-    public static final BigInteger CENT = new BigInteger("1000000", 10);
-    public static final BigInteger MIN_TX_FEE = CENT.divide(new BigInteger("10"));
-    public static final BigInteger TX_FEE_PER_KB = CENT.divide(new BigInteger("10"));
+	public static final BigInteger CENT = new BigInteger("1000000", 10);
+	public static final BigInteger MIN_TX_FEE = CENT.divide(new BigInteger("100000000"));
+	public static final BigInteger TX_FEE_PER_KB = CENT.divide(new BigInteger("100000000"));
 
 	public static final int BTC_MAX_PRECISION = 8;
 	public static final int MBTC_MAX_PRECISION = 5;
@@ -93,19 +93,19 @@ public class Constants
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
-    //TODO: Lots of these
+	//TODO: Lots of these
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
-	public static final String SOURCE_URL = "https://github.com/Kazcoin/bitcoin-wallet";
-	public static final String BINARY_URL = "https://github.com/Kazcoin/bitcoin-wallet/releases";
-	public static final String CREDITS_BITCOINJ_URL = "https://github.com/Kazcoin/bitcoinj";
+	public static final String SOURCE_URL = "https://github.com/Kazcoin/kazcoin-wallet";
+	public static final String BINARY_URL = "https://github.com/Kazcoin/kazcoin-wallet/releases";
+	public static final String CREDITS_BITCOINJ_URL = "https://github.com/Kazcoin/Kazcoinj";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
 	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/Kazcoin";
 	public static final String AUTHOR_GOOGLEPLUS_URL = "https://plus.google.com/+Kazcoin";
 	public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/+Kazcoin";
-    public static final String ANDROID_MARKET_APP_URL = "market://details?id=%s";
-    public static final String BB_MARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
-    public static final String ANDROID_WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
-    public static final String BB_WEBMARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
+	public static final String ANDROID_MARKET_APP_URL = "market://details?id=%s";
+	public static final String BB_MARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
+	public static final String ANDROID_WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
+	public static final String BB_WEBMARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
 
 	public static final String VERSION_URL = "http://wallet.schildbach.de/version";
 	public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
@@ -120,8 +120,8 @@ public class Constants
 	public static final String PREFS_KEY_SELECTED_ADDRESS = "selected_address";
 	public static final String PREFS_KEY_EXCHANGE_CURRENCY = "exchange_currency";
 	public static final String PREFS_KEY_TRUSTED_PEER = "trusted_peer";
-    public static final String PREFS_KEY_TRUSTED_PEER_ONLY = "trusted_peer_only";
-    public static final String PREFS_KEY_QR_SCANNER = "qr_scanner";
+	public static final String PREFS_KEY_TRUSTED_PEER_ONLY = "trusted_peer_only";
+	public static final String PREFS_KEY_QR_SCANNER = "qr_scanner";
 	public static final String PREFS_KEY_LABS_BLUETOOTH_OFFLINE_TRANSACTIONS = "labs_bluetooth_offline_transactions";
 	public static final String PREFS_KEY_BTC_PRECISION = "btc_precision";
 	public static final String PREFS_DEFAULT_BTC_PRECISION = "4";
